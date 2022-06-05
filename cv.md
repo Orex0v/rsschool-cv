@@ -5,6 +5,7 @@ My name is **Orekhov Denis Nikolaevich**
 - Email: **[orex0vd@gmail.com](mailto:orex0vd@gmail.com)**
 - Phone: **[+79997773322](tel:79997773322)**
 - Discord: **@orex0v#1651**
+
   ![Using the capacity of a large company](https://sun9-west.userapi.com/sun9-69/s/v1/if2/Fm_MlebCS-z0LNklWKhSBjR7jlq6Sl0-rHP-DG-TR_W2c-xpBSuzrwa0wG9QUzBTP0d9CNPkR7cPzNsagJd20flX.jpg?size=200x200&quality=96&crop=4,4,971,971&ava=1)
 
 ## About:
