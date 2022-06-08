@@ -1,12 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
     <title>HTML, CSS and Git Basics</title>
   </head>
   <body>
-    <h1>My page</h1>
+    <header>
+      <div class="header__wrapper">
+        <img src="/assets/profile/avatar.jpg" alt="photo" class="avatar" />
+      </div>
+      <h1>Orekhov Denis</h1>
+      <p class="title__description">Web Developer</p>
+    </header>
+    <nav>
+      <ul class="nav__items">
+        <li><a href="#about">About</a></li>
+        <li><a href="#example">Example of job</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Learning Projects</a></li>
+        <li><a href="#study">Study</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <div class="about__text">
+          <div class="wrapper">
+            <div class="d">
+              <p>
+                I am 27 years old, I study at SPIGIC on the 2nd course of the
+                part-time department of the Faculty of Information Technology, I
+                play the guitar, I do sports, I watch my food.
+              </p>
+              <p>
+                In work my priority is to develop within the company, I have
+                good soft skills and I quickly find a common language with the
+                team.
+              </p>
+            </div>
+            <div class="d">
+              <p>
+                I have a basic knowledge of Python (I write parsers and can
+                forge Django project), confident in Vue (I include nuxt into it
+                too), plan to switch to React and learn NodeJs (and then
+                NestJs).
+              </p>
+              <p>
+                I have a basic knowledge of Python (I write parsers and can
+                forge Django project), confident in Vue (I include nuxt into it
+                too), plan to switch to React and learn NodeJs (and then
+                NestJs).
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="example">
+        <h2>
+          Example of job from
+          <a href="https://www.codewars.com/kata/57eae65a4321032ce000002d"
+            >CodeWars:</a
+          >
+        </h2>
+        <pre>
+
+function fakeBin(input) {
+  var output = input.split('')
+  .map(function(arg) {
+    if (arg > 4) {
+      return (1);
+    } else {
+      return (0);
+    }
+  }).join('');
+  return (output);
+}
+
+        </pre>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>JS</li>
+          <li>CSS</li>
+          <li>PYTHON</li>
+        </ul>
+      </section>
+      <section id="projects">
+        <h2>My Learning Projects:</h2>
+        <ul class="projects">
+          <li>
+            <a href="https://orex0v.github.io/china/"
+              >https://orex0v.github.io/china/
+            </a>
+          </li>
+          <li>
+            <a href="https://orex0v.github.io/polarshop/"
+              >https://orex0v.github.io/polarshop/
+            </a>
+          </li>
+          <li>
+            <a href="https://orex0v.github.io/uber/"
+              >https://orex0v.github.io/uber/
+            </a>
+          </li>
+          <li>
+            <a href="https://orex0v.github.io/WebDesing"
+              >https://orex0v.github.io/WebDesing
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section id="study">
+        <h2>Study</h2>
+        <div class="about__text">
+          <p>
+            I took a retraining course at ITMO University, specializing in
+            Python developer.
+          </p>
+
+          <p>
+            Took a course on
+            <a
+              href="https://www.udemy.com/share/101WvE3@a2qTRdgoM9wwXLdFMGlNqRmUewUXOW10egRNmFDX8WdDjb5rTSxzAqVfu2CR6ab9/"
+              >Udemy ‘WEB-developer’ from Ivan Petrichenko</a
+            >, where I received the basic skills of layout and JS.
+          </p>
+
+          <p>
+            I`ve been studying
+            <a href="https://learn.javascript.ru/"
+              >https://learn.javascript.ru/</a
+            >
+            (classics) and making out my desktop projects.
+          </p>
+
+          <p>
+            I did not pass the English level test, I can easily read documents
+            in English, I can hold a conversation
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <h2 class="footer__title">Contacts</h2>
+
+        <ul class="footer__list">
+          <li>
+            Email: <a href="mailto:orex0vd@gmail.com">orex0vd@gmail.com</a>
+          </li>
+          <li>Phone: <a href="tel:79997773322">+79997773322</a></li>
+          <li>
+            Github:
+            <a href="tel:https://github.com/Orex0v"
+              >https://github.com/Orex0v</a
+            >
+          </li>
+          <li>Discord: @orex0v#1651</li>
+        </ul>
+        <div class="d-flex">
+          <a href="https://rs.school/js/">
+            <img class="rs_logo" src="/assets/icons/rs_school_js.svg" alt="" />
+          </a>
+          <div class="year">2022</div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
