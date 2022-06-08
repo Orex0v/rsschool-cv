@@ -11,7 +11,7 @@ section,
 }
 
 .header__wrapper {
-  background: url('/assets/bg/bg.jpeg');
+  background: url('assets/bg/bg.jpeg');
   background-size: cover;
   height: 150px;
   width: 100%;
